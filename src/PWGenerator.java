@@ -8,6 +8,7 @@ public class PWGenerator {
         System.out.println(password(sc.nextInt()));
         sc.close();
     }
+    
     private static char[] password(int length) {
         char[] fPassword = new char[length];
 
